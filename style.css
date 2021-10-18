@@ -1,0 +1,412 @@
+
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    /* overflow: hidden; */
+
+    background-color: rgb(26, 25, 56);
+}
+
+#container{
+    width: 100%;
+    /* display: relative; */
+    /* padding: 1rem; */
+    margin : 0 !important;
+}
+
+.container{
+    padding: 0 2rem;
+}
+
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#navbarright a{
+    margin : 0 1rem;
+}
+
+
+#part1{
+    /* display: none; */
+    margin : 4rem 0;
+    /* border: 1rem solid ; */
+    /* ?? chetori inja part1 ro be andaze height e child esh height bedam? ba clear:both nemishe ke  */
+    /* overflow: visible; */
+    /* min-width :60% ; */
+    width: 100%;
+    /* height: auto; */
+    /* position: relative; */
+    /* top : 50% ; */
+    /* left : 50% ;
+    transform: translate(-50%,0); */
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(180, 178, 177);
+    /* display: inline; */
+    text-align: center;
+}
+
+#part1 img{
+    /* position : relative;
+    top : 50% ;
+    left : 50% ;
+    transform: translate(-50%,0); */
+    max-width: 60%;
+    width: 60%;
+    height : auto ;
+}
+
+#p1title {
+    font-size: xx-large;
+    color: white;
+    margin: 3rem 0 0 0 ;
+}
+
+#p1desc {
+    font-size: 1.2rem;
+}
+
+#p1btn {
+    border-radius: 2.2rem;
+    color: white;
+    background-color: rgb(170, 211, 214);
+    width : 30% ;
+    max-width: 250 px ;
+    padding: .8rem;
+}
+
+#part2 {
+    display: flex;
+    justify-content: center;
+    /* display : none ; */
+}
+#part2center {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p{ 
+    margin : 0
+}
+
+.flexcontainer {
+    display: inline;
+    width: 40px;
+}
+
+.features {
+    width: 50%;
+    margin : 5rem 0 0 0 ;
+    display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+
+}
+
+.features img {
+    width: 30%;
+    max-width: 90px;
+}
+
+.featuretitle {
+    margin : 1rem 0 0 0 ;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.featuredesc {
+    margin : .5rem 0 0 0 ;
+    font-size: 1rem;
+    color: rgb(180, 178, 177);
+}
+
+#part3 {
+    margin : 5rem 0 0 0 ;
+    
+    display: flex;
+    align-items: center;
+    /* height: 540px; */
+    /* display : none ; */
+}
+
+#part3::after{
+        content: "";
+      clear: both;
+      display: table;
+}
+
+#part3left {
+    padding: 1rem;
+    height: 100%;
+width: 50%;
+}
+
+#part3leftcenter{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#part3left img{
+    width: 100%;
+}
+
+#part3right{
+    padding: 1rem;
+    width: 50%;
+    height: 100%;
+}
+
+#part3rightcenter{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#part3righttitle {
+    font-size: xx-large;
+    color: white;
+}
+
+#part3rightdesc1 {
+    margin: 1rem 0 0 0 ;
+    font-size: 1rem;
+    color: rgb(180, 178, 177);
+}
+
+#part3rightdesc2{
+    margin: 1rem 0 0 0 ;
+    font-size: 1rem;
+    color: rgb(180, 178, 177);
+}
+
+#part3rightlink{
+    margin: 1rem 0 0 0 ;
+}
+
+
+
+
+
+#part4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 5rem 0 0 0 ;
+    /* display: none; */
+}
+
+
+
+#part4comments {
+    display: flex;
+    width : 80%;
+    max-width: 80%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.part4comment {
+    position: relative;
+    background-color: rgb(36, 38, 61);
+padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    border-radius: .5rem;
+    margin: 1rem;
+    width: 30%;
+    min-width: 300px;
+
+}
+
+#quoteicon {
+    position: absolute;
+    width: 3%;
+    min-width: 30px;
+    height: auto;
+    top : -3%;
+    left: -5%;
+}
+
+.part4commentdesc{
+    margin : 1.5rem 0
+}
+
+.part4commentauthor {
+    display: flex;
+    width: 100%;
+}
+
+.part4commentdescimg {
+    border-radius: 50%;
+width: 10%;
+max-width: 50px;
+height: auto;
+}
+
+.part4commentauthorchar {
+    margin-left: 1rem;
+}
+
+.part4commentauthorcharposition {
+    margin-top: .2rem;
+    font-size: .65rem;
+}
+
+
+
+
+
+
+
+
+
+#footer {
+
+    padding: 1rem;
+    background-color: rgb(20, 2, 59);
+    margin : 5rem 0 0 0 ;
+    display: flex;
+    flex-direction: column;
+    color : rgb(180, 178, 177)
+}
+
+#footer div{
+    margin : 0 .4rem .6rem 0 ;
+}
+
+#footerlower {
+    background-color: rgb(20, 2, 59);
+    margin : 0rem 0 0 0 ;
+    display: flex;
+    justify-content: space-between;
+    color : rgb(180, 178, 177)
+}
+
+/* #footer, .footercol::after{
+    content: "";
+  clear: both;
+  display: table;
+} */
+
+
+.footercol{
+    margin : 0rem .5rem  ;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 17%;
+}
+
+#footeraddress {
+    width: 30%;
+}
+
+#footeraddresslower,#footercontactphone,#footercontactmail {
+ 
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+}
+
+#footeraddresslower>img{
+    width: 30px;
+    height: 20px;
+
+}
+
+#footer p,a{
+    margin : 0 0 0.2rem .6rem ;
+    height: 20px;
+    width: auto;
+    color : rgb(180, 178, 177);
+    text-decoration: none;
+}
+
+#socialcol{
+    width : 10%;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+
+#socialcol i {
+    margin-left: .2rem;
+width : 20px;
+height: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(149, 149, 153);
+}
+
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .container{
+        padding: 0 .5rem;
+    }
+
+    #navbarright a{
+        margin : 0 .5rem;
+    }
+
+    #part3 {
+        flex-direction: column;
+}
+
+#part3right,#part3left {
+    width: 90%;
+}
+
+#footerlower {
+    flex-direction: column;
+    /* height: 800px; */
+}
+
+.footercol,#footeraddress{
+width: 100%;
+
+}
+
+#footeraddresslower>p{
+    height: auto;
+}
+
+.footercol:nth-child(3),.footercol:nth-child(4),.footercol:nth-child(5)
+{
+ margin-top: 1rem !important;   
+}
+
+#socialcol{
+    align-self: center;
+}
+
+}
+
+
+@media only screen and (max-width: 400px) {
+#part2center {
+    width: 90%;}
+
+    .features {
+        width: 90%;
+    }
+}
