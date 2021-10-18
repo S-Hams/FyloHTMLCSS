@@ -28,6 +28,10 @@ html,body{
 
 }
 
+#navbarleft>img{
+    width: 150px;
+}
+
 #navbarright a{
     margin : 0 1rem;
 }
@@ -399,6 +403,10 @@ width: 100%;
     align-self: center;
 }
 
+#navbarleft>img{
+    width: 100px;
+}
+
 }
 
 
@@ -409,4 +417,9 @@ width: 100%;
     .features {
         width: 90%;
     }
+
+    #navbarleft>img{
+        width: 60px;
+    }
+
 }
